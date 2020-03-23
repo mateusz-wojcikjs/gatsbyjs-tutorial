@@ -3,7 +3,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
-
+/* Gatsby env variables */
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
